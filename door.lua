@@ -11,7 +11,7 @@ local success, err = pcall(function()
     
     --| Allowed
     local admins = { 7479769756 }
-    local keyWords = { "ehh", "ye", "lol", "a" }
+    local keyWords = { "ehh", "ye", "lol", "a", "hola", "lol", "xd", "?", ".", "amigos", "viva mexico", ":v" }
     
     --| Local Functions
     local function getWeaponDataByTag(tag)
