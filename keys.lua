@@ -1,1 +1,1 @@
-return { "niggaballs" }
+{ "niggaballs" }
