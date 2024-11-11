@@ -1,1 +1,1 @@
-{ "niggaballs" }
+"niggaballs"
