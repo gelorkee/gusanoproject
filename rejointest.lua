@@ -14,7 +14,7 @@ local s2, e2 = pcall(function()
     Players.LocalPlayer.OnTeleport:Connect(function(teleportState)
         if not tcheck then
             tcheck = true
-            queueteleport("getgenv().LOADEDXD = true")
+            queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/gelorkee/gusanoproject/refs/heads/main/rejointest.lua'))()")
         end
     end)
 
