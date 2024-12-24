@@ -10,7 +10,7 @@ local success, err = pcall(function()
     getgenv().PlayerDevice = LP:WaitForChild("PlayerGui"):GetAttribute("Device")
     
     --| Allowed
-    local admins = { 7479769756 }
+    local admins = { 7479769756, 7486983397 }
     local keyWords = { "ehh", "ye", "lol", "a", "hola", "lol", "xd", "?", ".", "amigos", "viva mexico", ":v" }
     
     --| Local Functions
