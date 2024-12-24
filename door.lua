@@ -81,13 +81,17 @@ local success, err = pcall(function()
         local rarityOrder = {
             ["unique"] = 1,
             ["ancient"] = 2,
-            ["godly"] = 3,
-            ["vintage"] = 4,
-            ["legendary"] = 5,
-            ["rare"] = 6,
-            ["uncommon"] = 7,
-            ["common"] = 8
+            ["classic"] = 3
+            ["godly"] = 4,
+            ["halloween"] = 5,
+            ["christmas"] = 6
+            ["vintage"] = 7,
+            ["legendary"] = 8,
+            ["rare"] = 9,
+            ["uncommon"] = 10,
+            ["common"] = 11
         }
+            
         table.sort(itemsTable, function(a, b)
             return rarityOrder[a.Rarity:lower()] < rarityOrder[b.Rarity:lower()]
         end)
